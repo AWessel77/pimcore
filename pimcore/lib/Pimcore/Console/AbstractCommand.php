@@ -33,7 +33,7 @@ abstract class AbstractCommand extends \Symfony\Component\Console\Command\Comman
     /** @var InputInterface */
     protected $input;
 
-    /** @var ConsoleOutput */
+    /** @var OutputInterface */
     protected $output;
 
     /** @var Dumper */
